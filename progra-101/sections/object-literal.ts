@@ -1,5 +1,5 @@
 
-let person = {
+export let person = {
   name: 'Melissa',
   age: 30,
   isActive: true,
