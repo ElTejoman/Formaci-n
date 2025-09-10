@@ -1,19 +1,11 @@
 export function printMultiplicationTable(
   base: number,
-  limit: number = 10)
-{
+  limit: number = 10) {
 
-  for (let i = 1; i <= limit; i++){
-    if (i>0) {
-      return base * limit
+  for (let i = 1; i <= limit; i++) {
+    
+    console.log(base + "x" + i + "=" + base * i) ;
     }
     
-
-  }
-
-
-  
-  let result = base * limit;
-  return result;
 }
 

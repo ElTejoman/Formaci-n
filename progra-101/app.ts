@@ -4,7 +4,7 @@
 import { printMultiplicationTable } from "./helpers/print-multiplication.table";
 
 
-console.log(printMultiplicationTable(3,4));
+console.log(printMultiplicationTable(3,10));
 
 
 
