@@ -1,5 +1,10 @@
-let base: number = 10 ;
-let altura: number = 5;
-let result: number = base * altura;
+let numbers = [1, 6, 8, 4, 2, 7, 10, 3, 5];
 
-console.log('El áre de un triangulo de base: '+ base + ' y altura de: ' + altura + ' es igual a: ' + result)
+let maximo = numbers[0];
+for (let i = 0; i <= numbers.length; i++){
+  if (numbers[i] >  maximo) {
+    maximo = numbers[i];
+  }
+}
+console.log(maximo) ;
+//console.log('El numero mayor es: ', numbers[i])
