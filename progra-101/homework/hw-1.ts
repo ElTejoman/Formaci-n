@@ -1,0 +1,6 @@
+
+let lib: number = 150;
+let kilo: number = 0.453592;
+let mult: number = lib * kilo;
+
+console.log(lib + ' libras ' + 'x ' + kilo +' kilogramos' + '='+ mult);
