@@ -1,17 +1,32 @@
 
 
-export function largestNameOfArray( nameArray: string []) {
-  let largestName = '';
-  for (let i = 0; i < nameArray.length; i++){
-    let name = nameArray[i];
-    if (name.length > largestName.length) {
-      largestName = name;
+
+
+function heroesThatStartsWith(nameList: string[]) {
+  
+  letter = letter.toUpperCase();
+  let newNameList: string[] = [];
+
+  for (let i = 0; nameList.length; i++){
+    let name = nameList[i];
+
+    if (name.startsWith(letter)) {
+      newNameList.push(name)
     }
   }
-  return largestName;
+
+  return newNameList
 }
 
-let heroes = ['Deadpool', 'Ciclope', 'Magnetooooooooooooo', 'Profesor Xavier'];
-let hero = largestNameOfArray( heroes );
-console.log( hero ); // Profesor Charles Xavier 
 
+
+let heroes = ['Doom', 'Dr. Strange', 'Hulk', 'She Hulk', 'Spiderman', 'Captain Marvel'];
+let herosWithLetterS = heroesThatStartsWith( heroes, 'S' );
+
+
+
+
+
+
+
+console.log(herosWithLetterS); // She Hulk, Spiderman
