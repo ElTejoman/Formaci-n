@@ -9,7 +9,8 @@ partial class Program
     //ShowNumericTypes();
     //ShowStringTypes();
     //SalesReport();
-    SalaryCalculator();
+    //SalaryCalculator();
+    ShowTime();
     }
 }
 
