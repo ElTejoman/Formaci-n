@@ -10,7 +10,10 @@ partial class Program
     //ShowStringTypes();
     //SalesReport();
     //SalaryCalculator();
-    ShowTime();
+    //ShowTime();
+    //DaysOfLife();
+    //DaysUntilNextBirthday();
+    DataType();
     }
 }
 
