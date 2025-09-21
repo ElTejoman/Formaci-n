@@ -7,7 +7,8 @@
 // - Se debe manejar el caso en que el cumpleaños ya haya pasado en el año actual, 
 //   sumando un año para calcular la fecha del próximo (opcional).
 
-partial class Program
+/*partial class Program
+
 {
   static void DaysUntilNextBirthday()
   {
@@ -19,3 +20,19 @@ partial class Program
     Console.WriteLine(diasFaltan);
   }
 }
+
+
+*/
+
+
+partial class Program
+
+{
+  static void DaysOfLife()
+  {
+    DateTime birthDate = new DateTime(1983, 3, 2);
+    TimeSpan difference = DateTime.Now - birthDate;
+    Console.WriteLine($"Has vivido {difference.Days} dias.");
+  }
+  }
+  

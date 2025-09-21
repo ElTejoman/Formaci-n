@@ -13,7 +13,8 @@ partial class Program
     //ShowTime();
     //DaysOfLife();
     //DaysUntilNextBirthday();
-    DataType();
+    //DataType();
+    DaysOfLife();
     }
 }
 
