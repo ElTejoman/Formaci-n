@@ -1,4 +1,5 @@
 ﻿
+/*
 partial class Program
 {
 
@@ -10,8 +11,8 @@ partial class Program
     char character = 'C';
     string text = "Hola C Sharp";
     Console.WriteLine($"Entero: {integer}, Decimal: {decimalNumber}, Booleano: {isTrue}, Caracter: {character}, Texto> {text}");
-    }
+  }
 }
 
-
+*/
 

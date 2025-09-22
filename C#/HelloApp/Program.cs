@@ -17,7 +17,8 @@ partial class Program
     //DaysOfLife();
     //DaysUntilNextBirthday();
     //TypeDifference();
-    HandleNullables();
+    //HandleNullables();
+    Operators();
     }
 }
 
