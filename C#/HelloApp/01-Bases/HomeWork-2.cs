@@ -6,7 +6,7 @@
 // - Investigar acerca de `CultureInfo.InvariantCulture` para que no afecte la configuración regional del sistema.
 // - Se debe manejar el caso en que el cumpleaños ya haya pasado en el año actual, 
 //   sumando un año para calcular la fecha del próximo (opcional).
-
+/*
 partial class Program
 
 {
@@ -33,14 +33,14 @@ partial class Program
     Double diasFaltan = fecNac - DateTime.Today;
 
     Console.WriteLine(diasFaltan);
-    */
+   
   }
 }
 
 
 
 
-/*
+
 partial class Program
 
 {

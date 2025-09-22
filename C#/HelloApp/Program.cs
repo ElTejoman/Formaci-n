@@ -15,7 +15,8 @@ partial class Program
     //DaysUntilNextBirthday();
     //DataType();
     //DaysOfLife();
-    DaysUntilNextBirthday();
+    //DaysUntilNextBirthday();
+    TypeDifference();
     }
 }
 
