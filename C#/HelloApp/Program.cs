@@ -16,7 +16,8 @@ partial class Program
     //DataType();
     //DaysOfLife();
     //DaysUntilNextBirthday();
-    TypeDifference();
+    //TypeDifference();
+    HandleNullables();
     }
 }
 
