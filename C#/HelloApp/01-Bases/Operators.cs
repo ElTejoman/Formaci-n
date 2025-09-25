@@ -1,8 +1,10 @@
+
+/*
 partial class Program
 {
   static void Operators()
   {
-    int number = 15;
+    int number = 9;
     bool isEven = number % 2 == 0;
     bool isGreaterThanTen = number > 10;
     if (isEven && isGreaterThanTen)
@@ -19,8 +21,10 @@ partial class Program
     }
     // Operador Ternario (?:)
 
-    int age = 21;
+    int age = 30;
     string category = age > 18 ? "Adulto" : "Menor";
     Console.WriteLine(category);
   }
 }
+
+*/
