@@ -1,3 +1,4 @@
+/*
 partial class Program
 {
   static void Arrays()
@@ -32,3 +33,6 @@ partial class Program
 
   }
 }
+
+
+*/
