@@ -1,3 +1,5 @@
+/*
+
 using System;
 
 namespace MakingProgress
@@ -7,18 +9,20 @@ namespace MakingProgress
     static void Main(string[] args)
     {
       // Declare steps variable
-      int steps = 0 ;
-    
+      int steps = 0;
+
 
 
       // Two steps forward 
-      steps +=2  ;
+      steps += 2;
 
       // One step back 
-      steps --;
+      steps--;
 
       // Print result to the console
       Console.WriteLine(steps);
     }
   }
 }
+
+*/
