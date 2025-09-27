@@ -1,6 +1,6 @@
 
 
-
+/*
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -126,3 +126,4 @@ pedro.Greet();                                         // ← Llamada a método
     return s;
   }
 }
+*/
