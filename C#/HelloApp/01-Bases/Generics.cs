@@ -4,8 +4,8 @@ partial class Program
   {
     string[] names = { "Juan", "Luis", "Diana" };
     int[] numbers = { 1, 2, 3, 3, 5, 6, 7 };
-    Console.WriteLine($"El tamanio del arreglo numerico {GetArrayLength(numbers)}");
-    Console.WriteLine($"El tamanio del arreglo string {GetArrayLength(names)}");
+    WriteLine($"El tamanio del arreglo numerico {GetArrayLength(numbers)}");
+    WriteLine($"El tamanio del arreglo string {GetArrayLength(names)}");
 
     Box<int> numberBox = new Box<int> { content = 50 };
     Box<string> stringBox = new Box<string> { content = "Ahora soy texto sauuu" };
@@ -40,7 +40,7 @@ class Box<T>      //Asi se define una clase generica
 
   public void Show()
   {
-    Console.WriteLine($"Contenido {content}");
+    WriteLine($"Contenido {content}");
   }
 }   
 
