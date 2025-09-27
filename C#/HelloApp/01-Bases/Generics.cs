@@ -7,6 +7,12 @@ partial class Program
     Console.WriteLine($"El tamanio del arreglo numerico {GetArrayLength(numbers)}");
     Console.WriteLine($"El tamanio del arreglo string {GetArrayLength(names)}");
 
+    Box<int> numberBox = new Box<int> { content = 50 };
+    Box<string> stringBox = new Box<string> { content = "Ahora soy texto sauuu" };
+
+    numberBox.Show();
+    stringBox.Show(); ;
+
   }
 
   // metodos sin uso de Genericos
@@ -27,4 +33,14 @@ partial class Program
     return array.Length;
   }
 }
+
+class Box<T>      //Asi se define una clase generica
+{
+  public T? content { get; set; }
+
+  public void Show()
+  {
+    Console.WriteLine($"Contenido {content}");
+  }
+}   
 
