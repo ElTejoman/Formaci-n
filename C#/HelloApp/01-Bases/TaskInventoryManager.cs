@@ -2,6 +2,8 @@
 // - Mostrar el inventario actualizado después de cada compra. 
 // - Crear un menu con las opciones de 1. Comprar producto y 2. Salir.
 
+
+/*
 using System.Globalization;
 
 static partial class Program
@@ -72,8 +74,8 @@ static partial class Program
       Console.WriteLine("Gracias por su visita!");
     }
 
-
-
+*/
+// ---------------------------------------------------------------------------
 /*
             Console.WriteLine("Inventario de Productos");
             Console.WriteLine("------------------------");
@@ -100,12 +102,12 @@ static partial class Program
                 }
               } 
             }
-            */
+            
 
   }
 }
 
-
+*/
 
 /* backup
     string[] products = ["Monitor", "Mouse", "Teclado"];
