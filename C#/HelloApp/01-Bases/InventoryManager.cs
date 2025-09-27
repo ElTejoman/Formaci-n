@@ -1,3 +1,5 @@
+/*
+
 partial class Program
 {
   static void InventoryManager()
@@ -33,3 +35,5 @@ partial class Program
     }
   }
 }
+
+*/

@@ -21,6 +21,7 @@ partial class Program
     //Operators();
     //Arrays();
     InventoryManager();
+     
     }
 }
 
