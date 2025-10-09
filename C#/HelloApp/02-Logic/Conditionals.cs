@@ -1,3 +1,5 @@
+using System.Diagnostics.Tracing;
+
 partial class Program
 {
   static void Conditionals() {
@@ -29,8 +31,29 @@ partial class Program
     }
     else
     {
-        WriteLine("Hace frio");
-      
+      WriteLine("Hace frio");
+
+    }
+
+    //SWITCH
+
+    int day = 3;
+
+    switch (day)
+    {
+      case 1:
+        WriteLine("Lunes");
+        break;
+      case 2:
+        WriteLine("Martes");
+        break;
+      case 3:
+        WriteLine("Miercoles");
+        break;
+      default:
+        WriteLine("Dia no valido");
+        break;
+    
     }
 
   }
