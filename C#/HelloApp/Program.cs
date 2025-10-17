@@ -37,7 +37,8 @@ partial class Program
     // Conversions();
     // Function();
     // PrintMultiplicationTable(10, 7);
-    PrintFactorialTable(10);
+    // PrintFactorialTable(10);
+    Tuples();
     #endregion
   }
 }
