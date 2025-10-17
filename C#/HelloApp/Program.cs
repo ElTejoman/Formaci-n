@@ -36,7 +36,8 @@ partial class Program
     // LoopGame();
     // Conversions();
     // Function();
-    PrintMultiplicationTable(10, 7);
+    // PrintMultiplicationTable(10, 7);
+    PrintFactorialTable(10);
     #endregion
   }
 }
