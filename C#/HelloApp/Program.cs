@@ -26,7 +26,8 @@ partial class Program
     //Generics();
     // Conditionals();
     // 
-    FizzBuzz();
+    // FizzBuzz();
+    LoopControlExamples();
   }
 }
 
