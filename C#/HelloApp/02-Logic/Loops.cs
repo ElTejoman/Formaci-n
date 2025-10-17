@@ -9,6 +9,14 @@ partial class Program
       WriteLine($"Iteraacion: {counter}");
       counter++;
     }
+
+    // do wwhile
+    int number = 0;
+    do
+    {
+      WriteLine($"Nuero: {number}");
+      number++;
+    } while (number < 5);
   }
   
 }
