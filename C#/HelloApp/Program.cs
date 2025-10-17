@@ -33,7 +33,8 @@ partial class Program
     // Loops();
     // FizzBuzz();
     // LoopControlExamples();
-    LoopGame();
+    // LoopGame();
+    Conversions();
     
     #endregion
   }
