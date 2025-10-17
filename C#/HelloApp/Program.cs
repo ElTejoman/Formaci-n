@@ -34,8 +34,9 @@ partial class Program
     // FizzBuzz();
     // LoopControlExamples();
     // LoopGame();
-    Conversions();
-    
+    // Conversions();
+    // Function();
+    PrintMultiplicationTable(10, 7);
     #endregion
   }
 }
