@@ -25,7 +25,8 @@ partial class Program
     //DataStructures();
     //Generics();
     // Conditionals();
-    Loops();
+    // 
+    FizzBuzz();
   }
 }
 
