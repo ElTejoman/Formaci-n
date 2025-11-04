@@ -8,6 +8,7 @@ partial class Program
     WriteLine(car.ShowInfo());
     car.ShowMessage("Hello, Car!");
     car.ChangeModel("Honda");
+    car.MoreInfo();
     WriteLine(car.ShowInfo());
     Car.GeneralInfo();
 
@@ -28,4 +29,5 @@ class Car
   }
   public void ShowMessage(string message) => WriteLine("This is a car.");
   public static void GeneralInfo() => WriteLine("Cars are vehicles used for transportation.");
+  public void MoreInfo() => WriteLine($"Esto ahora es un {Model} del año {Year}.");
 }
