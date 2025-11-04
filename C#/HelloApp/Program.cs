@@ -41,7 +41,8 @@ partial class Program
     // Tuples();
     // AnonymousFunctions();
     // TestingClass();
-    Properties();
+    //Properties();
+    Methods();
     #endregion
   }
 }
